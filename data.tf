@@ -13,7 +13,7 @@ data "aws_route53_zone" "primary" {
 data "aws_acm_certificate" "wildcard" {
   
   domain      = "*.dnc.beauty"
-  statuses    = ["ISSUED"]
+  status   = ["ISSUED"]
   most_recent = true
 }
 

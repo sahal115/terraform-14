@@ -6,4 +6,7 @@ variable "vpc_tenancy" {
   default = "default"
 }
 
-variable "vpc_name" {}
+variable "vpc_name" {
+
+}
+
